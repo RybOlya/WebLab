@@ -1,0 +1,249 @@
+button {
+    align-items: center;
+    font-family: 'Rubik';
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    width: 90px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    line-height: 14px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__container {
+
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) url("../images/Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    scale: auto;
+    background-blend-mode: darken;
+}
+
+.header__nav {
+    width: 100%;
+    height: 100px;
+
+}
+.header__nav ul{
+    margin-left: 700px;
+}
+nav ul li {
+
+    margin-right: 40px;
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+
+}
+
+.header__nav-link {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+.header__contact {
+    border: none;
+    color: #606B74;
+}
+
+.headline {
+    padding-top: 12%;
+    padding-bottom: 12%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headline__text {
+    width: 440px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.headline__text h3 {
+    font-size: 18px;
+    line-height: 19px;
+    font-family: 'Rubik';
+    opacity: 0.8;
+    float: left;
+    font-weight: 500;
+    width: 100%
+}
+
+.headline__text h1 {
+    padding-top: 35px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.play__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.play__button button {
+    padding: 0;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    height: 32px;
+    width: 32px;
+    line-height: 50%;
+    border: none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+
+}
+
+.play__button a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 14px;
+
+}
+
+.content__text {
+    width: 500px;
+}
+
+.content__text h1 {
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 38px;
+    color: #222F33;
+}
+
+.content__text h3 {
+    margin-top: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #646D70;
+}
+
+.content__text button {
+    margin-top: 40px;
+    border: 1px solid #646D70;
+}
+
+.content__image img {
+    filter: saturate(100%);
+    width: 440px;
+}
+
+.content_dark {
+    background: #222F33;
+    font-style: normal;
+    height: 350px;
+}
+
+.content_dark h1 {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.content_dark h3 {
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.container_materials {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_materals {
+    width: 210px;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+.content_materals h3 {
+    margin-top: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #646D70;
+    width: 100%;
+}
+
+.content_materals h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    width: 100%;
+    color: #222F33;
+
+}
+
+.description {
+    height: 700px;
+}
+
+.materials {
+    width: 800px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #222F33;
+    display: grid;
+    grid-template-columns: 250px auto 100px 150px;
+    /*grid-template-columns: [first]30% auto [last] 30%;*/
+    align-items: center
+}
+.footer__info a{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+footer .logo{
+    margin: 0 auto;
+    /* or */
+    text-align: center;
+}
+.mail{
+    margin-left:  60px;
+}
