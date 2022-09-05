@@ -1,0 +1,131 @@
+@media screen and (max-width: 360px) {
+    .toggler{
+        z-index:1000;
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .header__nav-item button {
+        color: #FFFFFF;
+    }
+    .header__nav-link
+    {
+        width: 120%;
+        font-weight: 500;
+        font-size: 0.5rem;
+        line-height: 1.1875rem;
+    }
+    .hamburger > div{
+        position: relative;
+        top: 0;
+        right: 0;
+        background: white;
+        height: 0.125rem;
+        width: 50%;
+        transition: all  0.4s ease;
+    }
+    .hamburger{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 2rem;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hamburger > div::before,
+    .hamburger > div::after{
+        content: '';
+        position: absolute;
+        top: -4px;
+        background: white;
+        width: 100%;
+        height: 0.0938rem;
+        transition: all  0.4s ease;
+    }
+    .hamburger > div::after{
+        top: 4px;
+    }
+    .toggler:checked + .hamburger > div{
+        background: rgba(0,0,0,0);
+    }
+    
+    .toggler:checked + .hamburger > div::before{
+        top: 0;
+        z-index:100;
+        transform: rotate(45deg);
+        background: #272424;
+    }
+    .menu{
+
+        background: white;
+        height: 9.5rem;
+        transition: all 0.3s  ease-in-out .5s;
+        position: absolute;
+        top: 0;
+        right: -30%;
+        width: 0%;
+        display: flex;
+        justify-content:center ;
+    }
+    
+    
+    .menu >  ul{
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        
+    }
+    
+    .menu > ul > li{
+        list-style: none;
+        padding: 0.2rem;
+    }
+    
+    .menu > ul > li > a{
+        color: #272424;
+        text-decoration: none;
+
+    }
+
+    .toggler:checked + .hamburger > div::after{
+        top: 0;
+        z-index:100;
+        transform: rotate(135deg);
+        background: #272424;
+    }
+    .toggler:checked ~ .menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }    
+    .toggler:checked ~ .menu > ul{
+        transition: visibility 0.2s ease;
+        transition-delay: 0.1s;
+        visibility: visible;
+    }
+    .toggler:checked ~ .menu > ul > li{
+        padding: 0.1rem;
+        list-style-type: none;
+        display: block;
+        transition: 0.7s all;
+    }
+    header button {
+        color:#ffffff;
+        background-color: #222F33;
+        height: 1.5rem;
+    }
+    nav ul li {
+        margin-right: 0;
+    }
+}
