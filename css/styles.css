@@ -1,6 +1,7 @@
 @import "./normalize.min.css";
 @import "./reset.min.css";
-@import "./global.css";
+@import "./nav.css";
 @import "./header.css";
 @import "./description.css";
 @import "./footer.css";
+@import "./global.css";
