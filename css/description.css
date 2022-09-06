@@ -25,6 +25,7 @@
 .content__text button {
     margin-top: 3%;
     border: 0.0625rem solid #646D70;
+
 }
 
 .content__image img {
@@ -53,12 +54,6 @@
     mix-blend-mode: normal;
     opacity: 0.7;
 }
-
-/* .materials > .container{
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-} */
 
 .content__materals {
     width: 40%;
