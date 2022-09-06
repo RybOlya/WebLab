@@ -23,10 +23,6 @@ footer .logo{
     margin: 0;
     text-align: center;
 }
-.mail{
-   
-
-}
 @media screen and (min-width: 320px) and (max-width: 400px) {
     .footer__info a{
         font-size: 0.4rem;
