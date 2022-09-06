@@ -1,0 +1,239 @@
+
+.header > .container
+{
+    width: 100%;
+    display: block;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) url("../images/Background.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    scale: auto;
+    background-blend-mode: darken;
+}
+
+
+.header__nav {
+    width: 100%;
+    height: 6.25rem;
+
+}
+.header__nav ul{
+    margin-left: 25vw;
+}
+nav ul li {
+
+    margin-right: 2.5rem;
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+
+}
+
+.header__nav-link {
+    width: 9.375rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    text-decoration: none;
+}
+.headline {
+    padding-top: 12%;
+    padding-bottom: 12%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav-item button {
+    color: #606B74;
+}
+.headline__text {
+    width: 27.5rem;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.headline__text h3 {
+    font-size: 1.125rem;
+    line-height: 1.1875rem;
+    font-family: 'Rubik';
+    opacity: 0.8;
+    float: left;
+    font-weight: 500;
+    width: 100%
+}
+
+.headline__text h1 {
+    padding-top: 2.1875rem;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.8125rem;
+}
+
+.play__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.play__button button {
+    padding: 0;
+    box-shadow: 0px 0.125rem 1.25rem rgba(0, 0, 0, 0.5);
+    height: 2rem;
+    width: 2rem;
+    line-height: 50%;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .header__nav-item button {
+        color: #FFFFFF;
+    }
+    .header__nav-link
+    {
+        width: 120%;
+        font-weight: 500;
+        font-size: 0.5rem;
+        line-height: 1.1875rem;
+    }
+    .headline__text {
+        width: 45%;
+        color: #FFFFFF;
+        font-style: normal;
+    }
+    
+    .headline__text h3 {
+        font-size: 0.6rem;
+        line-height: 1.1875rem;
+
+    }
+    .headline__text h1 {
+        padding-top: 0;
+        font-weight: 600;
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+    }
+
+    .header__container > .container{
+        height: 2rem;
+        justify-content: space-between;
+    }
+
+    header button {
+        color:#ffffff;
+        background-color: #222F33;
+        height: 1.5rem;
+    }
+    nav ul li {
+        margin-right: 0;
+    }
+    .play__button
+    {
+        width: 35%;
+    }
+    .header__nav ul{
+        margin-left: 0
+    }
+    .headline {
+    padding: 2rem 0;
+    }
+}
+.toggler{
+    background-color: #272424;
+    z-index:1000;
+    height: 2rem;
+    width: 2rem;
+    position: fixed;
+    top: 0;
+    right:0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+    .header__nav ul {
+        margin-left: 43.75rem;
+    }
+    .header__container
+    {
+        max-width: 2560px;
+        margin: auto;
+    }
+    .header__nav-link {
+        width: 9.375rem;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 0.875rem;
+        text-decoration: none;
+    }
+    
+    button {
+        align-items: center;
+        font-family: 'Rubik';
+        font-weight: 520;
+        text-align: center;
+        font-size: 1.1em;
+
+    }
+    .play__button button{
+        padding: 0;
+        box-shadow: 0px 0.125rem 1.25rem rgba(0, 0, 0, 0.5);
+        height: 3rem;
+        width: 3rem;
+        line-height: 50%;
+        border: none;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+    
+    }
+    .play__button button img{
+        scale: 170%;
+    }
+    .headline__text {
+        width: 27.5rem;
+        color: #FFFFFF;
+        font-style: normal;
+    }
+    .headline__text {
+        width: 35rem;
+    }
+    
+    .headline__text h3 {
+        font-size: 1.8rem;
+    }
+    .headline__text h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    
+    .play__button a {
+        width: 18rem;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 1.7rem;
+        line-height: 0.875rem;
+    }
+    .play__button button{
+        scale:40%;
+    }
+}
